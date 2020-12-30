@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainChooseInterests">
+
+    <TextView
+        android:id="@+id/tvChooseInterest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_choose_interest"
+        android:textSize="@dimen/dp_30"
+        android:textStyle="bold"
+        android:paddingTop="@dimen/dp_50"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/tvAddTags"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/dp_30"
+        android:text="@string/text_add_tags"
+        android:paddingLeft="@dimen/dp_40"
+        android:paddingRight="@dimen/dp_40"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvChooseInterest"
+
+        />
+
+    <TextView
+        android:id="@+id/tvAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_add"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvAddTags"
+        android:paddingTop="@dimen/dp_30"
+
+        />
+
+    <TextView
+        android:id="@+id/tvIPL"
+        android:layout_width="@dimen/dp_40"
+        android:layout_height="@dimen/dp_40"
+        android:layout_marginTop="@dimen/dp_50"
+        android:background="@drawable/rectangle_bg"
+        android:paddingLeft="@dimen/dp_10"
+        android:paddingTop="@dimen/dp_10"
+        android:text="@string/text_ipl"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvAdd"
+        android:layout_marginRight="@dimen/dp_200"
+        />
+
+    <TextView
+        android:id="@+id/tvHipHop"
+        android:layout_width="@dimen/dp_70"
+        android:layout_height="@dimen/dp_40"
+        android:layout_marginRight="160dp"
+        android:background="@drawable/rectangle_bg"
+        android:paddingLeft="@dimen/dp_10"
+        android:paddingTop="@dimen/dp_10"
+        android:text="@string/text_hip_hop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintRight_toRightOf="@id/tvIPL"
+        app:layout_constraintStart_toEndOf="@+id/tvIPL"
+        app:layout_constraintTop_toBottomOf="@+id/tvAdd"
+        android:layout_marginVertical="@dimen/dp_50"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:text="@string/text_football"
+        app:layout_constraintStart_toEndOf="@id/tvHipHop"
+        android:layout_marginVertical="@dimen/dp_60"
+        app:layout_constraintTop_toBottomOf="@+id/tvAdd" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

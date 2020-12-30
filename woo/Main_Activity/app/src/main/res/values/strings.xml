@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Main_Activity</string>
+    <string name="text_you">YOU</string>
+    <string name="text_know">KNOW</string>
+    <string name="text_when">WHEN</string>
+    <string name="text_its">ITS</string>
+    <string name="text_right">RIGHT</string>
+
+</resources>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.woo">
+    package="com.example.main_activity">
 
     <application
         android:allowBackup="true"
@@ -8,9 +8,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Woo">
-        <activity android:name=".MainChooseInterests"></activity>
-        <activity android:name=".GenderActivity" />
+        android:theme="@style/Theme.Main_Activity">
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

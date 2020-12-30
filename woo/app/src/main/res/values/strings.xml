@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">Woo</string>
+    <string name="text_my_name">My Name</string>
+    <string name="text_first_name">First Name (mandatory)</string>
+    <string name="text_last_name">Last Name (optional)</string>
+    <string name="text_next">NEXT</string>
+    <string name="text_to_protect">To protect your privacy, we only show initials
+        for Women and First Name for Men</string>
+
+    <string name="text_my_gender">My Gender</string>
+    <string name="text_I_am_a_man">I am a Man</string>
+    <string name="text_I_am_a_woman">I am a Woman</string>
+    <string name="text_back">BACK</string>
+
+    <string name="text_choose_interest">Choose interests</string>
+    <string name="text_add_tags">Add tags that describe you best to meet like-minded people.</string>
+    <string name="text_add">Add at least 1 tags</string>
+    <string name="text_ipl">ILP+</string>
+    <string name="text_hip_hop">HipHop+</string>
+    <string name="text_democrat">Democrat+</string>
+    <string name="text_football">Football+</string>
+    <string name="text_hermit">Hermit+</string>
+    <string name="text_dog_person">DogPerson+</string>
+    <string name="text_stay_positive">StayPositive+</string>
+    <string name="text_rap_music">RapMusic+</string>
+    <string name="text_writing">Writing+</string>
+    <string name="text_bowling">Bowling+</string>
+
+
 </resources>
