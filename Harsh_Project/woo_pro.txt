@@ -1,0 +1,103 @@
+woo 
+Activities
+1. Main Activity :
+	UI : 
+		1.1 : signUp Phone Number (Button)
+		1.2 : Sign Up With FaceBook
+
+2. Registration Activity
+			
+			2.1 Phone Number  (Back) -> (Next) (top)
+				2.1.0 : verifying mob no  (Back) -> (Next) (top)
+					2.1.1 : My Name : Fname Lname (next) (top)
+					2.1.2 : My Gender : Male / Female (Back) -> (next) (top)
+					2.1.3 : my Birthday : DD-MM-YYYY (Back) -> (next) (top)
+					
+					2.1.4 : Add Photo :  
+											   1. add form device gallary
+											   2. add from facebook 
+											   3. capture on camera device 
+												(next) (top)
+					
+			Or
+			2.2 Facebook redirect
+			
+			2.1.5 Relationship & LifeStyle (Back) -> (Next) [bottom]
+					1. Relation : 
+									1.0 : Relationship status (select one)
+												a. single b. single with  kids 
+												c. Divorced  d. Divorced with kids
+												e. Separated f. Separated with kids
+						          
+								1.1 : What r u looking for on Woo (select one)
+								              a. Relationship b. something casual
+                                              c. Don't know yet d. marriage	
+					2 Lifetyle Choice :
+										2.0 : Smoking/non-Smoking (select one)
+											  a. Smoker b. Non-Smoker
+                                              c. Trying to quit
+									   2.1 : Drinking (select one)
+											  a. Drink Frequently 
+											  b. Teetotaler
+                                              c. Social drinker 
+									 2.2 : Diet (select one)
+											a. Vegetarian
+											b. Vegan 
+											c. Non-Vegetarian
+									2.3 : Workout (select one)
+											a. Active 
+                                            b. Sometimes
+											c. Almost never
+3.  Choose intrests : add at least 3 intrests
+                          3.0 cooking 
+						  3.1 Romantic
+						  3.2 Thinker
+                          3.3 Reading
+						  3.4 Biker
+						  3.5 Writing
+4. About Me (back) -> (next) [top]
+			write about ur self (like edit text)
+5. search City 
+			5.0 city name 
+6. user profile
+        6.0 user picture
+         6.1 user name , age
+         6.2 user city
+		 6.3 bottom of right (edit)  top of left (back arow)
+					6.3.0 change photo
+                    6.3.1 details [top of Edit & done]
+                             a.work & education
+                                1. search bar
+                                2. looking for a job
+                                3. not working
+                                4. app developer
+								5. s/w 
+                                [top (back <-) -> done]
+                           a.1 degree in 
+                               1. B Arch
+                               2. B Des
+                               3. BCA
+                               4. MCA
+                               5. B Com 
+                        b. Relationship & liftestyle
+                        c.Religion
+                              1. hindu
+                              2. jain
+                              3. Christian
+                      d about me
+                              edit text
+                        e height
+                        f personal intrest
+                        g phone number
+                  
+         6.4 user full name
+		 6.5 relation : abc
+		 6.6 looking for : xyz
+         6.7 smoking : abc
+         6.8 Drinking : xyz
+         6.9 Diet : xyz
+         6.10 workout : abc
+         6.11 phone verified 
+         6.12 intrest : abc
+   
+		
