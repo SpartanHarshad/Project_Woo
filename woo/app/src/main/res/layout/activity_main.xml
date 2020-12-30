@@ -4,15 +4,66 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="@dimen/dp_10"
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:id="@+id/tvbytapping"
+        style="@style/tv_tapping"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvsignfacebook"
+        style="@style/tv_signinfb"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnsignin"
+        style="@style/btn_signin"
+        android:paddingHorizontal="@dimen/dp_20"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvwenever"
+        style="@style/tv_we_never"
+        android:paddingLeft="@dimen/dp_20"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvweput"
+        style="@style/tv_weput"
+        android:paddingLeft="@dimen/dp_20"
+        android:paddingTop="@dimen/dp_20"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvmeaningful"
+        style="@style/tv_meaningful"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvsecure"
+        style="@style/tv_secure"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvprivate"
+        style="@style/tv_private"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvthedating"
+        style="@style/tv_thedating"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvwoo"
+        style="@style/tv_woo"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/img1"
+        style="@style/im_coupleimg"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">Woo</string>
+    <string name="txt_signin">sign-in with phone number</string>
+    <string name="txt_woo">WOO</string>
+    <string name="txt_the_dating_app">THE DATING APP WOMEN LOVE</string>
+    <string name="txt_private">PRIVATE</string>
+    <string name="txt_secure">+ SECURE</string>
+    <string name="txt_meaningful">+ MEANINGFUL</string>
+    <string name="txt_we_put">We put women first.</string>
+    <string name="txt_we_never">We NEVER post to Facebook ever.</string>
+    <string name="txt_signinfacebook">SIGN IN WITH FACEBOOK</string>
+    <string name="txt_by_tapping">By tapping Sign in, you agree with our Privacy Terms.</string>
+
+    <!-- Mobile No TextView Or Hint -->
+    <string name="txt_enter_mob">Enter Mobile No</string>
+    <string name="hint_yourNo">Your mobile number</string>
+    <string name="txt_proceed">Proceed</string>
 </resources>

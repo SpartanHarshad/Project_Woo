@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="btn_signin">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="layout_constraintLeft_toLeftOf">parent</item>
+        <item name="layout_constraintRight_toRightOf">parent</item>
+        <item name="layout_constraintBottom_toTopOf">@id/tvsignfacebook</item>
+        <item name="android:background">@drawable/sign_in_button</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:drawableLeft">@drawable/ic_cell_phone</item>
+        <item name="android:drawablePadding">@dimen/dp_20</item>
+        <item name="android:text">@string/txt_signin</item>
+    </style>
+
+    <style name="tv_tapping">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="layout_constraintLeft_toLeftOf">parent</item>
+        <item name="layout_constraintRight_toRightOf">parent</item>
+        <item name="layout_constraintBottom_toBottomOf">parent</item>
+        <item name="android:text">@string/txt_by_tapping</item>
+        <item name="android:textSize">@dimen/sp_10</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="tv_signinfb">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/txt_signinfacebook</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:padding">@dimen/dp_20</item>
+        <item name="layout_constraintBottom_toTopOf">@id/tvbytapping</item>
+        <item name="layout_constraintLeft_toLeftOf">parent</item>
+        <item name="layout_constraintRight_toRightOf">parent</item>
+    </style>
+
+    <style name="tv_we_never">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/txt_we_never</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/sp_15</item>
+        <item name="android:layout_marginBottom">@dimen/dp_60</item>
+        <item name="layout_constraintLeft_toLeftOf">parent</item>
+        <item name="layout_constraintBottom_toTopOf">@id/btnsignin</item>
+    </style>
+
+    <style name="tv_weput">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/txt_we_put</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/sp_15</item>
+        <item name="android:layout_marginTop">@dimen/dp_20</item>
+        <item name="layout_constraintLeft_toLeftOf">parent</item>
+        <item name="layout_constraintBottom_toTopOf">@id/tvwenever</item>
+    </style>
+
+    <style name="tv_meaningful">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/txt_meaningful</item>
+        <item name="android:textColor">@color/light_purple</item>
+        <item name="android:textSize">@dimen/sp_20</item>
+        <item name="android:paddingLeft">@dimen/dp_20</item>
+        <item name="android:layout_marginTop">@dimen/dp_20</item>
+        <item name="layout_constraintLeft_toLeftOf">parent</item>
+        <item name="layout_constraintBottom_toTopOf">@id/tvweput</item>
+    </style>
+
+    <style name="tv_secure">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/txt_secure</item>
+        <item name="android:textColor">@color/light_purple</item>
+        <item name="android:textSize">@dimen/sp_20</item>
+        <item name="android:paddingLeft">@dimen/dp_20</item>
+        <item name="android:layout_marginTop">@dimen/dp_20</item>
+        <item name="layout_constraintLeft_toLeftOf">parent</item>
+        <item name="layout_constraintBottom_toTopOf">@id/tvmeaningful</item>
+    </style>
+
+    <style name="tv_private">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/txt_private</item>
+        <item name="android:textColor">@color/light_purple</item>
+        <item name="android:textSize">@dimen/sp_20</item>
+        <item name="android:paddingTop">@dimen/dp_20</item>
+        <item name="android:paddingLeft">@dimen/dp_20</item>
+        <item name="android:layout_marginTop">@dimen/dp_20</item>
+        <item name="layout_constraintLeft_toLeftOf">parent</item>
+        <item name="layout_constraintBottom_toTopOf">@id/tvsecure</item>
+    </style>
+
+    <style name="tv_thedating">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/txt_the_dating_app</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/sp_15</item>
+        <item name="android:paddingTop">@dimen/dp_25</item>
+        <item name="android:paddingLeft">@dimen/dp_20</item>
+        <item name="android:layout_marginTop">@dimen/dp_20</item>
+        <item name="layout_constraintLeft_toLeftOf">parent</item>
+        <item name="layout_constraintBottom_toTopOf">@id/tvprivate</item>
+    </style>
+
+    <style name="tv_woo">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/txt_woo</item>
+        <item name="android:textColor">@color/light_red</item>
+        <item name="android:textSize">@dimen/sp_25</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:drawableLeft">@drawable/icon_1</item>
+        <item name="android:drawablePadding">@dimen/dp_15</item>
+        <item name="android:paddingTop">@dimen/dp_10</item>
+        <item name="android:paddingLeft">@dimen/dp_20</item>
+        <item name="android:layout_marginTop">@dimen/dp_20</item>
+        <item name="layout_constraintLeft_toLeftOf">parent</item>
+        <item name="layout_constraintBottom_toTopOf">@id/tvthedating</item>
+    </style>
+
+    <style name="im_coupleimg">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/dp_200</item>
+        <item name="android:src">@drawable/download</item>
+        <item name="layout_constraintRight_toRightOf">parent</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+        <item name="layout_constraintBottom_toTopOf">@id/tvwoo</item>
+        <item name="layout_constraintLeft_toLeftOf">parent</item>
+    </style>
+
+    <!-- Mobile No Enter Activity style -->
+
+    <style name="view_Barrow">
+        <item name="android:layout_width">@dimen/dp_20</item>
+        <item name="android:layout_height">@dimen/dp_20</item>
+        <item name="android:background">@drawable/ic_backarrow</item>
+        <item name="layout_constraintTop_toTopOf">parent</item>
+        <item name="android:layout_marginTop">@dimen/dp_20</item>
+        <item name="android:layout_marginLeft">@dimen/dp_20</item>
+        <item name="layout_constraintLeft_toLeftOf">parent</item>
+    </style>
+
+    <style name="view_Phone">
+        <item name="android:layout_width">@dimen/dp_130</item>
+        <item name="android:layout_height">@dimen/dp_150</item>
+        <item name="android:background">@drawable/ic_cell_phone_b</item>
+        <item name="layout_constraintRight_toRightOf">parent</item>
+        <item name="layout_constraintLeft_toLeftOf">parent</item>
+        <item name="android:layout_marginTop">@dimen/dp_80</item>
+        <item name="layout_constraintTop_toBottomOf">@id/viback</item>
+    </style>
+
+    <style name="txt_EnterMobNo">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/txt_enter_mob</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/sp_15</item>
+        <item name="layout_constraintLeft_toLeftOf">parent</item>
+        <item name="layout_constraintRight_toRightOf">parent</item>
+        <item name="android:padding">@dimen/dp_20</item>
+        <item name="layout_constraintTop_toBottomOf">@id/viphone</item>
+    </style>
+
+    <style name="Etx_MobNo">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:hint">@string/hint_yourNo</item>
+        <item name="layout_constraintLeft_toLeftOf">parent</item>
+        <item name="layout_constraintRight_toRightOf">parent</item>
+        <item name="android:inputType">phone</item>
+        <item name="android:layout_marginLeft">@dimen/dp_20</item>
+        <item name="android:layout_marginRight">@dimen/dp_20</item>
+        <item name="layout_constraintTop_toBottomOf">@id/tvEntermobno</item>
+    </style>
+
+    <style name="btn_mobNo">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/txt_proceed</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/sp_20</item>
+        <item name="android:background">@color/light_red</item>
+        <item name="layout_constraintLeft_toLeftOf">parent</item>
+        <item name="layout_constraintRight_toRightOf">parent</item>
+        <item name="android:padding">@dimen/dp_10</item>
+       <item name="layout_constraintBottom_toBottomOf">parent</item>
+    </style>
+</resources>
