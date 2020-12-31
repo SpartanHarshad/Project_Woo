@@ -40,5 +40,12 @@
 
 ----------------------------------------------------------------------------------------
 
+    <string name="text_my_birthday">My Birthday</string>
+    <string name="text_dd">DD</string>
+    <string name="text_mm">MM</string>
+    <string name="text_yyyy">YYYY</string>
+    <string name="text_enter_your_true_date_of_birth">Please enter your true date of birth hare. It will help us find you best matches fast.</string>
+
+-----------------------------------------------------------------------------------------------
 
 </resources>
