@@ -124,6 +124,11 @@
     <string name="text_wanderlust">Wanderlust +</string>
     <string name="text_electronic">Electronic +</string>
     <string name="text_long_walks">LongWalks +</string>
+-----------------------------------------------------------------------------------------
+    <string name="text_about_me">About Me</string>
+    <string name="text_write_about_yourself">Write about yourself...</string>
+    <string name="text_up_to_300">Upto 300</string>
+    <string name="text_keep_it_clean">Keep it clean! No phone, messenger details, web links, abusive or explicit content please.</string>
 
 
 </resources>
