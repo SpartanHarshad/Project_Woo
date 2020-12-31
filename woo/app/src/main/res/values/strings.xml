@@ -18,7 +18,6 @@
     <string name="txt_proceed">Proceed</string>
 
     <!-- My Name TextView Fname Lname EditText Activity -->
-
     <string name="my_name_txt">My Name</string>
     <string name="next">NEXT &gt;</string>
     <string name="fname_hint">First Name (mandatory) </string>
@@ -26,7 +25,6 @@
     <string name="text_to_protect">To protect your privacy, we only show initials for Women and First Name for Men</string>
 
     <!-- My Gender TextView Male Female Activity -->
-
     <string name="txt_my_gender">My Gender</string>
     <string name="txt_I_am_a_man">I am a Man</string>
     <string name="txt_I_am_a_woman">I am a Woman</string>
@@ -39,5 +37,50 @@
     <string name="hint_YYYY">YYYY</string>
     <string name="txt_birthday_Description">Please enter your true date of birth here. it will help us find you best matches fast.</string>
 
+    <!-- Add Picture  Activity -->
+    <string name="txt_addpic_Description">Add your photos</string>
+    <string name="txt_plus_sign">+</string>
+    <string name="txt_please_review_our_tips">Please review our tips to make sure your pics are approved and get liked.</string>
+
+    <!-- Relationship and Lifestyle Activity -->
+    <string name="txt_relationship_and_lifestyle">Relationship and Lifestyle</string>
+    <string name="txt_share">Share more about yourself to be discovered by the right people</string>
+    <string name="txt_relationship">Relationship</string>
+    <string name="txt_relationship_status">Relationship status (Select one)</string>
+    <string name="txt_single">#Single +</string>
+    <string name="txt_single_kids">#Single and with kids +</string>
+    <string name="txt_divorced">#Divorced +</string>
+    <string name="txt_divorced_kids">#Divorced and with Kids +</string>
+    <string name="txt_widowed">#Widowed +</string>
+    <string name="txt_widowed_kids">#Widowed and with Kids +</string>
+    <string name="txt_separated">#Separated</string>
+    <string name="txt_separated_kids">#Separated and with Kids +</string>
+
+    <string name="txt_what">What are you looking for on Woo (Select one)</string>
+    <string name="txt_relation">#Relationship +</string>
+    <string name="txt_something_casual">#Something casual +</string>
+    <string name="txt_do_not">#Do not know yet +</string>
+    <string name="txt_marriage">#Marriage +</string>
+
+    <string name="txt_lifestyle">Lifestyle Choices</string>
+    <string name="txt_smoking">Smoking/Non Smoking (Select one)</string>
+    <string name="txt_smoker">#Smoker +</string>
+    <string name="txt_non_smoker">#Non-smoker +</string>
+    <string name="txt_trying">#Trying to quit</string>
+
+    <string name="txt_drinking">Drinking (Select one)</string>
+    <string name="txt_drinks">#Drinks frequently +</string>
+    <string name="txt_teetotaler">#Teetotaler</string>
+    <string name="txt_social">#Social drinker +</string>
+
+    <string name="txt_diet">Diet (Select one)</string>
+    <string name="txt_vegetarian">#Vegetarian +</string>
+    <string name="txt_vegan">#Vegan +</string>
+    <string name="txt_non_vegetarian">#Non-vegetarian +</string>
+
+    <string name="txt_workout">Workout (Select one)</string>
+    <string name="txt_active">#Active +</string>
+    <string name="txt_sometimes">#Sometimes +</string>
+    <string name="txt_almost_never">#Almost never +</string>
 
 </resources>
