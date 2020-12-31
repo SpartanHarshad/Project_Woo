@@ -130,5 +130,38 @@
     <string name="text_up_to_300">Upto 300</string>
     <string name="text_keep_it_clean">Keep it clean! No phone, messenger details, web links, abusive or explicit content please.</string>
 
+----------------------------------------------------------------------------------------------
+
+    <string name="text_me">Me</string>
+
+    <string name="text_view_my_profile">View my profile</string>
+    <string name="text_get_member">Get member privileges</string>
+    <string name="text_likes_and_visits">Likes and Visits</string>
+    <string name="text_crush">Crush Received</string>
+    <string name="text_liked_profiles">Liked Profiles</string>
+    <string name="text_skipped_profiles">Skipped Profiles</string>
+    <string name="text_woo_globe">Woo Globe</string>
+
+    <string name="text_woo_tips">WOO TIPS</string>
+
+    <string name="text_all_swipe">All swipe and no talk makes dating dull.</string>
+    <string name="text_go_ahead">Go ahead and chat. Even better, call from Woo Phone to not share your number</string>
+
+    <string name="text_more_talking">More talking,</string>
+    <string name="text_no_stalking">No stalking.</string>
+    <string name="text_we">We show women name as initials and first name for men. Respect their privacy.</string>
+
+    <string name="text_zero_tolerance">Zero Tolerance</string>
+    <string name="text_woo_is_built">Woo is built for respect and consent. Report the ones who do not fit in.</string>
+
+    <string name="text_be_patient">Be Patient</string>
+    <string name="text_miracles">Miracles take time</string>
+
+    <string name="text_talk_time">TALK + TIME = TRUST</string>
+    <string name="text_spend_time">Spend time talking and establish trust before you ask for or share personal information</string>
+
+    <string name="text_respect">Respect is a two way street</string>
+    <string name="text_be_the_reason">Be the reason they smile, not the reason they log off the app.</string>
+
 
 </resources>
