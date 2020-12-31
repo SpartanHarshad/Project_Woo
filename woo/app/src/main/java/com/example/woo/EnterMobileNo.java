@@ -23,7 +23,7 @@ public class EnterMobileNo extends AppCompatActivity {
         emViBackArrow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(EnterMobileNo.this, MainActivity.class);
+                Intent intent = new Intent(EnterMobileNo.this,WooSignIn.class);
                 startActivity(intent);
             }
         });

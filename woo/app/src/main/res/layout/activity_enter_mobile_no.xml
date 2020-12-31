@@ -24,6 +24,7 @@
     <EditText
         android:id="@+id/etmobnum"
         style="@style/Etx_MobNo"
+        android:backgroundTint="@color/light_purple"
         tools:ignore="MissingConstraints" />
 
     <Button

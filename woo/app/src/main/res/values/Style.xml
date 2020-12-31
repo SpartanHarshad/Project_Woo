@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
 
+    <!-- Mobile No Enter Activity style -->
+    <style name="splash_img">
+        <item name="android:layout_width">@dimen/dp_100</item>
+        <item name="android:layout_height">@dimen/dp_100</item>
+        <item name="android:layout_marginBottom">@dimen/dp_200</item>
+        <item name="layout_constraintStart_toStartOf">parent</item>
+        <item name="layout_constraintBottom_toBottomOf">parent</item>
+        <item name="layout_constraintTop_toTopOf">parent</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+        <item name="android:src">@drawable/icon</item>
+        <item name="android:contentDescription">TODO</item>
+    </style>
+
+    <style name="Splash_textView">
+        <item name="android:layout_width">@dimen/dp_100</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:text">@string/txt_Tagline</item>
+        <item name="android:textSize">@dimen/sp_24</item>
+        <item name="android:includeFontPadding">true</item>
+        <item name="android:padding">@dimen/dp_10</item>
+        <item name="android:textColor">@color/Pink_shade</item>
+        <item name="layout_constraintTop_toBottomOf">@id/logo</item>
+        <item name="layout_constraintBottom_toBottomOf">parent</item>
+        <item name="layout_constraintStart_toStartOf">parent</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+    </style>
+    <!-- Signin With Mob No Activity style -->
     <style name="btn_signin">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -124,15 +152,18 @@
         <item name="layout_constraintBottom_toTopOf">@id/tvthedating</item>
     </style>
 
-    <style name="im_coupleimg">
-        <item name="android:layout_width">wrap_content</item>
+    <style name="im_coupleimg1">
+        <item name="android:layout_width">@dimen/dp_200</item>
         <item name="android:layout_height">@dimen/dp_200</item>
-        <item name="android:src">@drawable/download</item>
-        <item name="layout_constraintRight_toRightOf">parent</item>
-        <item name="layout_constraintEnd_toEndOf">parent</item>
-        <item name="layout_constraintBottom_toTopOf">@id/tvwoo</item>
-        <item name="layout_constraintLeft_toLeftOf">parent</item>
+        <item name="android:src">@drawable/img_d1</item>
     </style>
+
+    <style name="im_coupleimg2">
+        <item name="android:layout_width">@dimen/dp_200</item>
+        <item name="android:layout_height">@dimen/dp_200</item>
+        <item name="android:src">@drawable/img_d2</item>
+    </style>
+
 
     <!-- Mobile No Enter Activity style -->
 
@@ -193,4 +224,118 @@
         <item name="android:padding">@dimen/dp_10</item>
        <item name="layout_constraintBottom_toBottomOf">parent</item>
     </style>
+
+    <!-- Add My Name Activity style -->
+
+    <style name="txt_NEXT">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/next</item>
+        <item name="android:textColor">@color/light_red</item>
+        <item name="android:textSize">@dimen/sp_15</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+        <item name="android:padding">@dimen/dp_10</item>
+        <item name="layout_constraintTop_toTopOf">parent</item>
+    </style>
+
+    <style name="txt_myName">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/my_name_txt</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">@dimen/sp_30</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">@dimen/dp_50</item>
+        <item name="layout_constraintLeft_toLeftOf">parent</item>
+        <item name="layout_constraintRight_toRightOf">parent</item>
+        <item name="layout_constraintTop_toBottomOf">@+id/txt_next</item>
+    </style>
+
+    <style name="etv_Fname">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:hint">@string/fname_hint</item>
+        <item name="android:padding">@dimen/dp_20</item>
+        <item name="android:layout_marginTop">@dimen/dp_30</item>
+        <item name="layout_constraintStart_toStartOf">parent</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+        <item name="layout_constraintTop_toBottomOf">@+id/MyName</item>
+    </style>
+
+    <style name="etv_Lname">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:hint">@string/lname_hint</item>
+        <item name="android:padding">@dimen/dp_20</item>
+        <item name="android:layout_marginTop">@dimen/dp_30</item>
+        <item name="layout_constraintStart_toStartOf">parent</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+        <item name="layout_constraintTop_toBottomOf">@+id/etFname</item>
+    </style>
+
+    <style name="txt_protect">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/text_to_protect</item>
+        <item name="android:padding">@dimen/dp_20</item>
+        <item name="android:layout_marginTop">@dimen/dp_10</item>
+        <item name="layout_constraintStart_toStartOf">parent</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+        <item name="layout_constraintTop_toBottomOf">@+id/etLname</item>
+    </style>
+
+    <!-- My Gender TextView Male Female Activity -->
+
+    <style name="txt_BACK">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/txt_back</item>
+        <item name="android:textColor">@color/light_red</item>
+        <item name="android:textSize">@dimen/sp_15</item>
+        <item name="layout_constraintStart_toStartOf">parent</item>
+        <item name="android:padding">@dimen/dp_10</item>
+        <item name="layout_constraintTop_toTopOf">parent</item>
+    </style>
+
+    <style name="txt_myGender">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/txt_my_gender</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">@dimen/sp_30</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">@dimen/dp_50</item>
+        <item name="layout_constraintLeft_toLeftOf">parent</item>
+        <item name="layout_constraintRight_toRightOf">parent</item>
+        <item name="layout_constraintTop_toBottomOf">@+id/txt_nextg</item>
+    </style>
+
+    <style name="txt_Male">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/dp_200</item>
+        <item name="android:text">@string/txt_I_am_a_man</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:drawableTop">@drawable/ic_male1</item>
+        <item name="android:padding">@dimen/dp_10</item>
+        <item name="android:drawablePadding">@dimen/dp_15</item>
+        <item name="android:layout_marginTop">@dimen/dp_150</item>
+        <item name="layout_constraintLeft_toLeftOf">parent</item>
+        <item name="android:layout_marginLeft">@dimen/dp_70</item>
+        <item name="layout_constraintTop_toBottomOf">@+id/txt_mygender</item>
+    </style>
+
+    <style name="txt_Female">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/dp_200</item>
+        <item name="android:text">@string/txt_I_am_a_woman</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:drawableTop">@drawable/ic_female</item>
+        <item name="android:padding">@dimen/dp_10</item>
+        <item name="android:drawablePadding">@dimen/dp_15</item>
+        <item name="android:layout_marginTop">@dimen/dp_150</item>
+        <item name="layout_constraintRight_toRightOf">parent</item>
+        <item name="android:layout_marginRight">@dimen/dp_70</item>
+        <item name="layout_constraintTop_toBottomOf">@+id/txt_mygender</item>
+    </style>
+
 </resources>
