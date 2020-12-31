@@ -163,5 +163,28 @@
     <string name="text_respect">Respect is a two way street</string>
     <string name="text_be_the_reason">Be the reason they smile, not the reason they log off the app.</string>
 
+-----------------------------------------------------------------------------------------------------
+
+    <string name="text_settings">Settings</string>
+
+    <string name="text_my_location">My location</string>
+
+    <string name="text_woo_glob">Woo Globe</string>
+    <string name="text_meet_people">Meet people across location, communities and religion with Woo Globe</string>
+
+    <string name="text_their_distance">Their distance from me</string>
+
+    <string name="text_age_range">Age range</string>
+
+    <string name="text_gender_preferences">Gender preferences</string>
+
+    <string name="text_notifications">Notifications</string>
+    <string name="text_match_and_chat">Match And Chat</string>
+    <string name="text_crush_received">Crush received</string>
+    <string name="text_sound_alerts">Sound alerts</string>
+
+    <string name="text_account">Account</string>
+    <string name="text_log_out">Log out</string>
+    <string name="text_disable">Disable</string>
 
 </resources>
