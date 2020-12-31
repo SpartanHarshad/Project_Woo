@@ -18,7 +18,6 @@
     <string name="txt_we_never">We NEVER post to Facebook ever.</string>
     <string name="txt_sign_in_facebook">SIGN IN WITH FACEBOOK</string>
     <string name="txt_by_tapping">By tapping Sign in, you agree with our Privacy Terms.</string>
-
     <string name="txt_enter_mob">Enter Mobile No</string>
     <string name="hint_yourNo">Your mobile number</string>
     <string name="txt_proceed">Proceed</string>
@@ -47,5 +46,12 @@
     <string name="text_enter_your_true_date_of_birth">Please enter your true date of birth hare. It will help us find you best matches fast.</string>
 
 -----------------------------------------------------------------------------------------------
+
+    <string name="text_add_your_photos">Add your photos</string>
+    <string name="text_please_review_our_tips">Please review our tips to make sure your pics are approved and get liked.</string>
+    <string name="text_where_do_you_want">Where do you want to add picture from?</string>
+    <string name="text_gallery">GALLERY</string>
+    <string name="text_facebook">FACEBOOK</string>
+    <string name="text_camera">CAMERA</string>
 
 </resources>
