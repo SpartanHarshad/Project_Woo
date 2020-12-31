@@ -95,5 +95,35 @@
     <string name="text_sometimes">#Sometimes +</string>
     <string name="text_almost_never">#Almost never +</string>
 
+----------------------------------------------------------------------------------------------
+    <string name="text_choose_interests">Choose interests</string>
+    <string name="text_add_tags">Add tags that describe you best to meet like-minded people.</string>
+    <string name="text_add">Add at least 3 tags</string>
+
+    <string name="text_ipl">IPL +</string>
+    <string name="text_hip_hop">HipHop +</string>
+    <string name="text_calligraphy">Calligraphy +</string>
+    <string name="text_scuba_driving">ScubaDriving +</string>
+    <string name="text_democrat">Democrat +</string>
+    <string name="text_no_expense">NoExpenseTraveler +</string>
+    <string name="text_football">Football +</string>
+    <string name="text_sculpting">Sculpting +</string>
+    <string name="text_hermit">Hermit +</string>
+    <string name="text_dog_person">DogPerson +</string>
+    <string name="text_stay_positive">StayPositive +</string>
+    <string name="text_lesbian">Lesbian +</string>
+    <string name="text_dance_machine">DanceMachine +</string>
+    <string name="text_pottery">Pottery +</string>
+    <string name="text_politically_incorrect">PoliticallyIncorrect +</string>
+    <string name="text_rap_music">RapMusic +</string>
+    <string name="text_classical_music">ClassicalMusic +</string>
+    <string name="text_writing">Writing +</string>
+    <string name="text_bowling">Bowling +</string>
+    <string name="text_witty">Witty +</string>
+    <string name="text_nature_walks">NatureWalks +</string>
+    <string name="text_wanderlust">Wanderlust +</string>
+    <string name="text_electronic">Electronic +</string>
+    <string name="text_long_walks">LongWalks +</string>
+
 
 </resources>
