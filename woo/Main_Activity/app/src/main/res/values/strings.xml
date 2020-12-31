@@ -53,5 +53,47 @@
     <string name="text_gallery">GALLERY</string>
     <string name="text_facebook">FACEBOOK</string>
     <string name="text_camera">CAMERA</string>
+----------------------------------------------------------------------------------
+
+    <string name="text_relationship_and_lifestyle">Relationship and Lifestyle</string>
+    <string name="text_share">Share more about yourself to be discovered by the right people</string>
+    <string name="text_relationship">Relationship</string>
+    <string name="text_relationship_status">Relationship status (Select one)</string>
+    <string name="text_single">#Single +</string>
+    <string name="text_single_kids">#Single and with kids +</string>
+    <string name="text_divorced">#Divorced +</string>
+    <string name="text_divorced_kids">#Divorced and with Kids +</string>
+    <string name="text_widowed">#Widowed +</string>
+    <string name="text_widowed_kids">#Widowed and with Kids +</string>
+    <string name="text_separated">#Separated</string>
+    <string name="text_separated_kids">#Separated and with Kids +</string>
+    
+    <string name="text_what">What are you looking for on Woo (Select one)</string>
+    <string name="text_relation">#Relationship +</string>
+    <string name="text_something_casual">#Something casual +</string>
+    <string name="text_do_not">#Do not know yet +</string>
+    <string name="text_marriage">#Marriage +</string>
+
+    <string name="text_lifestyle">Lifestyle Choices</string>
+    <string name="text_smoking">Smoking/Non Smoking (Select one)</string>
+    <string name="text_smoker">#Smoker +</string>
+    <string name="text_non_smoker">#Non-smoker +</string>
+    <string name="text_trying">#Trying to quit</string>
+
+    <string name="text_drinking">Drinking (Select one)</string>
+    <string name="text_drinks">#Drinks frequently +</string>
+    <string name="text_teetotaler">#Teetotaler</string>
+    <string name="text_social">#Social drinker +</string>
+
+    <string name="text_diet">Diet (Select one)</string>
+    <string name="text_vegetarian">#Vegetarian +</string>
+    <string name="text_vegan">#Vegan +</string>
+    <string name="text_non_vegetarian">#Non-vegetarian +</string>
+
+    <string name="text_workout">Workout (Select one)</string>
+    <string name="text_active">#Active +</string>
+    <string name="text_sometimes">#Sometimes +</string>
+    <string name="text_almost_never">#Almost never +</string>
+
 
 </resources>
