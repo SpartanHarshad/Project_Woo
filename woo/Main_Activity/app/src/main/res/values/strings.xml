@@ -5,5 +5,40 @@
     <string name="text_when">WHEN</string>
     <string name="text_its">ITS</string>
     <string name="text_right">RIGHT</string>
+    --------------------------------------------------------
+
+
+    <string name="txt_sign_in">sign-in with phone number</string>
+    <string name="txt_woo">WOO</string>
+    <string name="txt_the_dating_app">THE DATING APP WOMEN LOVE</string>
+    <string name="txt_private">PRIVATE</string>
+    <string name="txt_secure">+ SECURE</string>
+    <string name="txt_meaningful">+ MEANINGFUL</string>
+    <string name="txt_we_put">We put women first.</string>
+    <string name="txt_we_never">We NEVER post to Facebook ever.</string>
+    <string name="txt_sign_in_facebook">SIGN IN WITH FACEBOOK</string>
+    <string name="txt_by_tapping">By tapping Sign in, you agree with our Privacy Terms.</string>
+
+    <string name="txt_enter_mob">Enter Mobile No</string>
+    <string name="hint_yourNo">Your mobile number</string>
+    <string name="txt_proceed">Proceed</string>
+    -----------------------------------------------------------------------------
+
+
+    <string name="text_my_name">My Name</string>
+    <string name="text_first_name">First Name (mandatory)</string>
+    <string name="text_last_name">Last Name (optional)</string>
+    <string name="text_next">NEXT</string>
+    <string name="text_to_protect">To protect your privacy, we only show initials
+        for Women and First Name for Men</string>
+-----------------------------------------------------------------------------------
+
+    <string name="text_my_gender">My Gender</string>
+    <string name="text_I_am_a_man">I am a Man</string>
+    <string name="text_I_am_a_woman">I am a Woman</string>
+    <string name="text_back">BACK</string>
+
+----------------------------------------------------------------------------------------
+
 
 </resources>

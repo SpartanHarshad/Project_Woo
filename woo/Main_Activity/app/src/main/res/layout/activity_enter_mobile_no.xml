@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".enter_mobile_no">
+
+    <View
+        android:id="@+id/viback"
+        style="@style/view_Barrow"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/viphone"
+        style="@style/view_Phone"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvEntermobno"
+        style="@style/txt_EnterMobNo"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/etmobnum"
+        style="@style/Etx_MobNo"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btngetMobno"
+        style="@style/btn_mobNo"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

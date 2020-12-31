@@ -12,19 +12,19 @@
         android:layout_height="wrap_content"
         android:src="@drawable/icon"
         android:layout_centerHorizontal="true"
-        android:paddingTop="60dp"
+        android:paddingTop="@dimen/dp_60"
         />
     <TextView
         android:id="@+id/tvYou"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="40dp"
-        android:paddingTop="300dp"
-        android:paddingStart="155dp"
+        android:layout_marginEnd="@dimen/dp_40"
+        android:paddingTop="@dimen/dp_300"
+        android:paddingStart="@dimen/dp_155"
         android:text="@string/text_you"
         android:textColor="#d34367"
-        android:textSize="40sp"
-        android:drawablePadding="50dp"
+        android:textSize="@dimen/sp_40"
+        android:drawablePadding="@dimen/dp_50"
 
         />
 
@@ -34,9 +34,9 @@
         android:layout_height="wrap_content"
         android:text="@string/text_know"
         android:textColor="#d14799"
-        android:textSize="40sp"
+        android:textSize="@dimen/sp_40"
         android:layout_below="@id/tvYou"
-        android:paddingStart="140dp"
+        android:paddingStart="@dimen/dp_140"
 
         />
     <TextView
@@ -45,7 +45,7 @@
         android:layout_height="wrap_content"
         android:text="@string/text_when"
         android:textColor="#a85988"
-        android:textSize="40sp"
+        android:textSize="@dimen/sp_40"
         android:layout_below="@id/tvKnow"
         android:paddingStart="140dp"
         />
@@ -55,7 +55,7 @@
         android:layout_height="wrap_content"
         android:text="@string/text_its"
         android:textColor="#cc47c3"
-        android:textSize="40sp"
+        android:textSize="@dimen/sp_40"
         android:layout_below="@id/When"
         android:paddingStart="160dp"
         />
@@ -64,7 +64,7 @@
         android:layout_height="wrap_content"
         android:text="@string/text_right"
         android:textColor="#c13ebf"
-        android:textSize="40sp"
+        android:textSize="@dimen/sp_40"
         android:layout_below="@id/tvIts"
         android:paddingStart="140dp"
 

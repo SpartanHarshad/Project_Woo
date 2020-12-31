@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/dp_10"
+    tools:context=".sign_up">
+
+    <TextView
+        android:id="@+id/tvbytapping"
+        style="@style/tv_tapping"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvsignfacebook"
+        style="@style/tv_signinfb"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnsignin"
+        style="@style/btn_signin"
+        android:paddingHorizontal="@dimen/dp_20"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvwenever"
+        style="@style/tv_we_never"
+        android:paddingLeft="@dimen/dp_20"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvweput"
+        style="@style/tv_weput"
+        android:paddingLeft="@dimen/dp_20"
+        android:paddingTop="@dimen/dp_20"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvmeaningful"
+        style="@style/tv_meaningful"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvsecure"
+        style="@style/tv_secure"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvprivate"
+        style="@style/tv_private"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvthedating"
+        style="@style/tv_thedating"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvwoo"
+        style="@style/tv_woo"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/img1"
+        style="@style/im_coupleimg"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

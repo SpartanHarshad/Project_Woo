@@ -9,6 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Main_Activity">
+        <activity android:name=".select_gender"></activity>
+        <activity android:name=".add_name" />
+        <activity android:name=".enter_mobile_no" />
+        <activity android:name=".sign_up" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
