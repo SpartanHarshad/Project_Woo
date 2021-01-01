@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Woo">
-        <activity android:name=".View_User_Profile"></activity>
+        <activity android:name=".View_Profile"></activity>
+        <activity android:name=".chats" />
+        <activity android:name=".UserProfileMe" />
+        <activity android:name=".View_User_Profile" />
         <activity android:name=".Choose_City" />
         <activity android:name=".About_Me" />
         <activity android:name=".Choose_Interest" />

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View_Profile">
+
+    <GridLayout
+        android:id="@+id/gridmenubar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/me_bar"
+        android:columnCount="2"
+        android:rowCount="1"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/tvback_me"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp_10"
+            android:paddingHorizontal="@dimen/dp_10"
+            android:paddingVertical="@dimen/dp_5"
+            android:background="@drawable/ic_backarrow" />
+
+        <TextView
+            android:id="@+id/tvUser_Me"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp_10"
+            android:paddingLeft="@dimen/dp_5"
+            android:paddingTop="@dimen/dp_10"
+            android:paddingRight="@dimen/dp_130"
+            android:text="Profile"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_25"
+            android:textStyle="normal"/>
+    </GridLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gridmenubar"
+        tools:ignore="MissingConstraints">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp_5"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/userpic"
+                android:layout_width="@dimen/dp_400"
+                android:layout_height="@dimen/dp_300"
+                android:src="@drawable/girl1_2" />
+
+            <View
+                android:layout_width="@dimen/dp_40"
+                android:layout_height="@dimen/dp_40"
+                android:background="@drawable/ic_pencil"
+                 android:layout_below="@id/userpic"
+                android:layout_marginRight="@dimen/dp_20"
+                android:layout_alignParentRight="true"/>
+
+            <TextView
+                android:id="@+id/tvcapricorn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/userpic"
+                android:text="Capricorn"
+                android:textColor="@color/black"
+                android:padding="@dimen/dp_20"/>
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_2"
+                android:layout_below="@id/tvcapricorn"
+                android:background="@color/gray"/>
+
+            <Button
+                android:id="@+id/userinterest1"
+                android:layout_marginTop="@dimen/dp_20"
+                style="@style/btn_chooseInterest"
+                android:text="@string/text_hip_hop"
+                android:layout_below="@id/view1"/>
+
+            <Button
+                android:id="@+id/userinterest2"
+                style="@style/btn_chooseInterest"
+                android:text="@string/text_football"
+                android:layout_below="@id/userinterest1"/>
+            <Button
+                android:id="@+id/userinterest3"
+                style="@style/btn_chooseInterest"
+                android:text="@string/text_writing"
+                android:layout_below="@id/userinterest2"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

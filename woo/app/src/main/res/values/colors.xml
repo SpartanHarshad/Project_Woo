@@ -16,5 +16,6 @@
     <color name="light_gray">#CFCACA</color>
     <color name="sky_Darkblue">#2174B6</color>
     <color name="light_violate">#B310D6</color>
-
+    <color name="me_bar">#0791A3</color>
+    <color name="matchbox">#0FE433</color>
 </resources>

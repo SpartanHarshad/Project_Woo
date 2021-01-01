@@ -23,8 +23,16 @@ public class View_User_Profile extends AppCompatActivity {
         uTvUserProfile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(View_User_Profile.this,UserProfile.class);
-                intent
+                Intent intent = new Intent(View_User_Profile.this,UserProfileMe.class);
+                 startActivity(intent);
+            }
+        });
+
+        Tvchats.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent1 = new Intent(View_User_Profile.this,chats.class);
+                startActivity(intent1);
             }
         });
 

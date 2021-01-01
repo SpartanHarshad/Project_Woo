@@ -25,6 +25,7 @@
     <dimen name="dp_300">300dp</dimen>
     <dimen name="dp_340">340dp</dimen>
     <dimen name="dp_400">400dp</dimen>
+    <dimen name="dp_450">450dp</dimen>
     <dimen name="dp_800">800dp</dimen>
     <dimen name="dp_55">55dp</dimen>
     <dimen name="sp_10">10sp</dimen>
