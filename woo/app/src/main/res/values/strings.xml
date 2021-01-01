@@ -114,4 +114,25 @@
     <string name="text_electronic">Electronic +</string>
     <string name="text_long_walks">LongWalks +</string>
 
+    <!-- About Me Activity -->
+    <string name="text_about_me">About Me</string>
+    <string name="text_write_about_yourself">Write about yourself...</string>
+    <string name="text_up_to_300">Upto 300</string>
+    <string name="text_keep_it_clean">Keep it clean! No phone, messenger details, web links, abusive or explicit content please.</string>
+
+    <!-- Search City Activity -->
+    <string name="text_Search_city">Search City</string>
+    <string name="text_set_browser">Set your browsing location. This can only be modified later if you give location permission is Settings.</string>
+    <string name="tetx_my_location">My current location</string>
+    <string name="text_top_cities"> Top cities</string>
+    <string name="text_mumbai">Mumbai, Maharashtra</string>
+    <string name="text_newDelhi">New Delhi, Delhi</string>
+    <string name="text_pune">Pune, Maharashtra</string>
+    <string name="text_bengaluru">Bengaluru, Karnataka</string>
+    <string name="text_chennai">Chennai, Tamil Nadu</string>
+    <string name="text_gurgaon">Gurgaon, Haryana</string>
+    <string name="text_ahmedabad">Ahmedabad Gujarat</string>
+    <string name="text_hyderabad">Hyderabad, Telangana</string>
+    <string name="txt_discover">Discover</string>
+
 </resources>
