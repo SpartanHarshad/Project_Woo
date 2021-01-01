@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Woo">
-        <activity android:name=".RelationShip_LiftStyle"></activity>
+        <activity android:name=".About_Me"></activity>
+        <activity android:name=".Choose_Interest" />
+        <activity android:name=".LifeStyle_Choices" />
+        <activity android:name=".RelationShip_LiftStyle" />
         <activity android:name=".AddPic" />
         <activity android:name=".MyBirthDay" />
         <activity android:name=".AddGender" />

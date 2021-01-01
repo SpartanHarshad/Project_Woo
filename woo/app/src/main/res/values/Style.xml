@@ -222,7 +222,7 @@
         <item name="layout_constraintLeft_toLeftOf">parent</item>
         <item name="layout_constraintRight_toRightOf">parent</item>
         <item name="android:padding">@dimen/dp_10</item>
-       <item name="layout_constraintBottom_toBottomOf">parent</item>
+        <item name="layout_constraintBottom_toBottomOf">parent</item>
     </style>
 
     <!-- Add My Name Activity style -->
@@ -436,7 +436,7 @@
         <item name="android:rowCount">4</item>
         <item name="android:columnCount">3</item>
     </style>
-    
+
     <style name="btnAddpic">
         <item name="android:layout_gravity">fill</item>
         <item name="android:text">@string/txt_plus_sign</item>
@@ -493,7 +493,7 @@
         <item name="android:textSize">@dimen/sp_15</item>
         <item name="android:textStyle">bold</item>
         <item name="android:gravity">center_horizontal</item>
-        <item name="android:paddingTop">@dimen/dp_10</item>
+        <item name="android:paddingTop">@dimen/dp_5</item>
         <item name="layout_constraintLeft_toLeftOf">parent</item>
         <item name="layout_constraintRight_toRightOf">parent</item>
         <item name="layout_constraintTop_toBottomOf">@+id/tvRelation_Liftstyle</item>
@@ -505,7 +505,7 @@
         <item name="android:background">@color/gray</item>
         <item name="layout_constraintLeft_toLeftOf">parent</item>
         <item name="layout_constraintRight_toRightOf">parent</item>
-        <item name="android:layout_margin">@dimen/dp_10</item>
+        <item name="android:layout_margin">@dimen/dp_5</item>
         <item name="layout_constraintTop_toBottomOf">@+id/tvshare_more_details</item>
     </style>
 
@@ -521,7 +521,7 @@
     </style>
 
     <style name="Scrol_View_Layout">
-        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:paddingTop">@dimen/dp_10</item>
         <item name="layout_constraintLeft_toLeftOf">parent</item>
@@ -529,10 +529,10 @@
         <item name="layout_constraintTop_toBottomOf">@+id/viewLine</item>
     </style>
 
-    <style name="Relative_Layout">
+    <style name="Linear_Layout">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_margin">@dimen/dp_10</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
     </style>
 
     <style name="txt_Relationship">
@@ -552,7 +552,7 @@
         <item name="android:text">@string/txt_relationship_status</item>
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">@dimen/sp_15</item>
-        <item name="android:paddingTop">@dimen/dp_10</item>
+        <item name="android:paddingTop">@dimen/dp_5</item>
         <item name="android:drawableLeft">@drawable/ic_single</item>
         <item name="android:drawablePadding">@dimen/dp_20</item>
         <item name="android:layout_below">@+id/txt_relationship</item>
@@ -560,10 +560,18 @@
         <item name="layout_constraintRight_toRightOf">parent</item>
     </style>
 
+    <style name="btn_relations">
+        <item name="android:layout_gravity">fill</item>
+        <item name="android:layout_margin">@dimen/dp_2</item>
+        <item name="android:background">@drawable/rounded_button</item>
+        <item name="android:textColor">@color/light_purple</item>
+        <item name="android:textSize">@dimen/sp_10</item>
+    </style>
+
     <style name="GridLayout_Relationship">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_margin">@dimen/dp_10</item>
+        <item name="android:layout_margin">@dimen/dp_5</item>
         <item name="layout_constraintStart_toStartOf">parent</item>
         <item name="layout_constraintEnd_toEndOf">parent</item>
         <item name="android:layout_below">@+id/txt_relationshipStatus</item>
@@ -571,12 +579,167 @@
         <item name="android:columnCount">2</item>
     </style>
 
-    <style name="btn_relations">
-        <item name="android:layout_gravity">fill</item>
+    <style name="txt_What_are_u_look">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/txt_what</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/sp_15</item>
+        <item name="android:paddingTop">@dimen/dp_5</item>
+        <item name="android:drawableLeft">@drawable/ic_relastion</item>
+        <item name="android:drawablePadding">@dimen/dp_20</item>
+        <item name="android:layout_below">@+id/GridRelationship</item>
+        <item name="layout_constraintLeft_toLeftOf">parent</item>
+        <item name="layout_constraintRight_toRightOf">parent</item>
+    </style>
+
+    <style name="GridLayout_What_r_u_looking">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_margin">@dimen/dp_5</item>
+        <item name="layout_constraintStart_toStartOf">parent</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+        <item name="android:layout_below">@+id/tvWhat_r_u_looking</item>
+        <item name="android:rowCount">2</item>
+        <item name="android:columnCount">2</item>
+    </style>
+
+    <style name="view_line1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dp_1</item>
+        <item name="android:background">@color/gray</item>
+        <item name="layout_constraintLeft_toLeftOf">parent</item>
+        <item name="layout_constraintRight_toRightOf">parent</item>
+        <item name="android:layout_margin">@dimen/dp_10</item>
+        <item name="android:layout_below">@+id/GridLayoutWhatAreYou</item>
+    </style>
+
+    <style name="txt_Lifestyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/txt_lifestyle</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/sp_20</item>
+        <item name="android:textStyle">bold</item>
+        <item name="layout_constraintLeft_toLeftOf">parent</item>
+        <item name="layout_constraintRight_toRightOf">parent</item>
+    </style>
+
+    <style name="txt_Smoking_Non">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/txt_smoking</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/sp_15</item>
+        <item name="android:paddingTop">@dimen/dp_10</item>
+        <item name="android:drawableLeft">@drawable/ic_cigarette</item>
+        <item name="android:drawablePadding">@dimen/dp_20</item>
+        <item name="layout_constraintLeft_toLeftOf">parent</item>
+        <item name="layout_constraintRight_toRightOf">parent</item>
+    </style>
+
+    <style name="GridLayout_LifeChoice">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/dp_5</item>
+        <item name="layout_constraintStart_toStartOf">parent</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+        <item name="android:rowCount">2</item>
+        <item name="android:columnCount">2</item>
+    </style>
+
+    <style name="txt_Drinking">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/txt_drinking</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/sp_15</item>
+        <item name="android:paddingTop">@dimen/dp_5</item>
+        <item name="android:drawableLeft">@drawable/ic_wine</item>
+        <item name="android:drawablePadding">@dimen/dp_20</item>
+        <item name="layout_constraintLeft_toLeftOf">parent</item>
+        <item name="layout_constraintRight_toRightOf">parent</item>
+    </style>
+
+    <style name="txt_Diet">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:text">@string/txt_diet</item>
+    <item name="android:textColor">@color/black</item>
+    <item name="android:textSize">@dimen/sp_15</item>
+    <item name="android:paddingTop">@dimen/dp_5</item>
+    <item name="android:drawableLeft">@drawable/ic_cooking</item>
+    <item name="android:drawablePadding">@dimen/dp_20</item>
+    <item name="layout_constraintLeft_toLeftOf">parent</item>
+    <item name="layout_constraintRight_toRightOf">parent</item>
+</style>
+
+    <!-- Choose Interests Activity -->
+    <style name="txt_Choose_Interest">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/txt_choose_interests</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">@dimen/sp_25</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingTop">@dimen/dp_30</item>
+        <item name="layout_constraintLeft_toLeftOf">parent</item>
+        <item name="layout_constraintRight_toRightOf">parent</item>
+    </style>
+
+    <style name="txt_addTags">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/txt_add_tags</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">@dimen/sp_15</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingTop">@dimen/dp_5</item>
+        <item name="layout_constraintLeft_toLeftOf">parent</item>
+        <item name="layout_constraintRight_toRightOf">parent</item>
+        <item name="layout_constraintTop_toBottomOf">@+id/tvChoose_Interest</item>
+    </style>
+
+    <style name="txt_addThreeUnterest">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/txt_add</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">@dimen/sp_15</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingTop">@dimen/dp_10</item>
+        <item name="layout_constraintLeft_toLeftOf">parent</item>
+        <item name="layout_constraintRight_toRightOf">parent</item>
+        <item name="layout_constraintTop_toBottomOf">@+id/tvaddTags</item>
+    </style>
+
+
+    <style name="view_lineinteret">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dp_1</item>
+        <item name="android:background">@color/gray</item>
+        <item name="layout_constraintLeft_toLeftOf">parent</item>
+        <item name="layout_constraintRight_toRightOf">parent</item>
+        <item name="android:layout_margin">@dimen/dp_5</item>
+        <item name="layout_constraintTop_toBottomOf">@+id/tvaddThreeUnterest</item>
+    </style>
+
+    <style name="Linear_LayoutChoose">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="btn_chooseInterest">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/dp_2</item>
         <item name="android:background">@drawable/rounded_button</item>
         <item name="android:textColor">@color/light_purple</item>
-        <item name="android:textSize">@dimen/dp_10</item>
+        <item name="android:textSize">@dimen/sp_10</item>
     </style>
 
 </resources>

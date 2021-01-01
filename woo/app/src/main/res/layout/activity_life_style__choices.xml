@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RelationShip_LiftStyle">
+    tools:context=".LifeStyle_Choices">
 
     <TextView
         android:id="@+id/tvRelation_Liftstyle"
@@ -23,13 +23,13 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/tvbottomback_Addpic"
+        android:id="@+id/tvbottomback_Relationship"
         style="@style/txt_BACKBottom"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteY="679dp" />
 
     <TextView
-        android:id="@+id/tvbottomnext_Lifechoice"
+        android:id="@+id/tvbottomnext_Intres"
         style="@style/txt_NEXTBottom"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="286dp"
@@ -47,122 +47,109 @@
             style="@style/Linear_Layout">
 
             <TextView
-                android:id="@+id/txt_relationship"
-                style="@style/txt_Relationship"/>
+                android:id="@+id/txt_Lifestyle"
+                style="@style/txt_Lifestyle"/>
 
             <TextView
-            android:id="@+id/txt_relationshipStatus"
-            style="@style/txt_Relationship_Status"/>
+                android:id="@+id/txt_Smoking_Non"
+                style="@style/txt_Smoking_Non"/>
 
             <GridLayout
-                android:id="@+id/GridRelationship"
-                style="@style/GridLayout_Relationship">
+                android:id="@+id/GridLifestyle"
+                style="@style/GridLayout_LifeChoice">
+
 
                 <Button
-                    android:id="@+id/btn_single"
+                    android:id="@+id/btn_Smoker"
                     style="@style/btn_relations"
                     android:layout_rowWeight="1"
                     android:layout_columnWeight="1"
-                    android:text="@string/txt_single"/>
+                    android:paddingHorizontal="@dimen/dp_5"
+                    android:text="@string/txt_smoker"/>
 
                 <Button
-                    android:id="@+id/btn_single_with_kid"
+                    android:id="@+id/btn_NonSmoker"
                     style="@style/btn_relations"
                     android:layout_rowWeight="1"
                     android:layout_columnWeight="1"
                     android:paddingHorizontal="@dimen/dp_10"
-                    android:text="@string/txt_single_kids"/>
+                    android:text="@string/txt_non_smoker"/>
 
                 <Button
-                    android:id="@+id/btn_Divorced"
+                    android:id="@+id/btn_TryQuit"
                     style="@style/btn_relations"
                     android:layout_rowWeight="1"
-                    android:layout_columnWeight="1"
-                    android:text="@string/txt_divorced"/>
-
-                <Button
-                    android:id="@+id/btn_Divorced_with_kid"
-                    style="@style/btn_relations"
-                    android:layout_rowWeight="1"
-                    android:layout_columnWeight="1"
-                    android:paddingHorizontal="@dimen/dp_15"
-                    android:text="@string/txt_divorced_kids"/>
-
-                <Button
-                    android:id="@+id/btn_Widowed"
-                    style="@style/btn_relations"
-                    android:layout_rowWeight="1"
-                    android:layout_columnWeight="1"
-                    android:text="@string/txt_widowed"/>
-
-                <Button
-                    android:id="@+id/btn_Widowed_with_kid"
-                    style="@style/btn_relations"
-                    android:layout_rowWeight="1"
-                    android:layout_columnWeight="1"
-                    android:paddingHorizontal="@dimen/dp_15"
-                    android:text="@string/txt_widowed_kids"/>
-
-                <Button
-                    android:id="@+id/btn_Separated"
-                    style="@style/btn_relations"
-                    android:layout_rowWeight="1"
-                    android:layout_columnWeight="1"
-                    android:text="@string/txt_separated"/>
-
-                <Button
-                    android:id="@+id/btn_Separated_with_kid"
-                    style="@style/btn_relations"
-                    android:layout_rowWeight="1"
-                    android:layout_columnWeight="1"
-                    android:paddingHorizontal="@dimen/dp_15"
-                    android:text="@string/txt_separated_kids"/>
-
+                    android:layout_columnWeight="2"
+                    android:paddingHorizontal="@dimen/dp_10"
+                    android:text="@string/txt_trying"/>
             </GridLayout>
 
             <TextView
-                android:id="@+id/tvWhat_r_u_looking"
-                style="@style/txt_What_are_u_look"/>
+                android:id="@+id/txt_Drinking"
+                style="@style/txt_Drinking"/>
 
             <GridLayout
-                android:id="@+id/GridLayoutWhatAreYou"
-                style="@style/GridLayout_What_r_u_looking">
+                android:id="@+id/GridDrinking"
+                style="@style/GridLayout_LifeChoice">
 
                 <Button
-                    android:id="@+id/btn_Relastionship"
-                    style="@style/btn_relations"
-                    android:layout_rowWeight="1"
-                    android:layout_columnWeight="1"
-                    android:paddingHorizontal="@dimen/dp_5"
-                    android:text="@string/txt_relation"/>
-
-                <Button
-                    android:id="@+id/btn_Somethingcasual"
+                    android:id="@+id/btn_Drinks"
                     style="@style/btn_relations"
                     android:layout_rowWeight="1"
                     android:layout_columnWeight="1"
                     android:paddingHorizontal="@dimen/dp_15"
-                    android:text="@string/txt_something_casual"/>
-
+                    android:text="@string/txt_drinks"/>
                 <Button
-                    android:id="@+id/btn_Dont_Yet"
-                    style="@style/btn_relations"
-                    android:layout_rowWeight="1"
-                    android:layout_columnWeight="1"
-                    android:paddingHorizontal="@dimen/dp_15"
-                    android:text="@string/txt_do_not"/>
-
-                <Button
-                    android:id="@+id/btn_Marriage"
+                    android:id="@+id/btn_Teetotaler"
                     style="@style/btn_relations"
                     android:layout_rowWeight="1"
                     android:layout_columnWeight="1"
                     android:paddingHorizontal="@dimen/dp_5"
-                    android:text="@string/txt_marriage"/>
+                    android:text="@string/txt_teetotaler"/>
 
+                <Button
+                    android:id="@+id/btn_Social_Drinks"
+                    style="@style/btn_relations"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:paddingHorizontal="@dimen/dp_15"
+                    android:text="@string/txt_social"/>
+            </GridLayout>
+
+            <TextView
+                android:id="@+id/txt_Diet"
+                style="@style/txt_Diet"/>
+
+            <GridLayout
+                android:id="@+id/GridDiet"
+                style="@style/GridLayout_LifeChoice">
+
+                <Button
+                    android:id="@+id/btn_Veg"
+                    style="@style/btn_relations"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:paddingHorizontal="@dimen/dp_15"
+                    android:text="@string/txt_vegetarian"/>
+                <Button
+                    android:id="@+id/btn_Vegan"
+                    style="@style/btn_relations"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:paddingHorizontal="@dimen/dp_5"
+                    android:text="@string/txt_vegan"/>
+
+                <Button
+                    style="@style/btn_relations"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:paddingHorizontal="@dimen/dp_15"
+                    android:text="@string/txt_non_vegetarian"/>
             </GridLayout>
 
         </LinearLayout>
+
     </ScrollView>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
