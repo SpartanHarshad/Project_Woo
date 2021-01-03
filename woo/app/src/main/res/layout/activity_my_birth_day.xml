@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyBirthDay">
+
+    <TextView
+        android:id="@+id/tvbackg"
+        style="@style/txt_BACK"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvnextIn"
+        style="@style/txt_NEXT"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/mybirthday"
+        style="@style/txt_mybirth"
+        tools:ignore="MissingConstraints"/>
+
+    <EditText
+        android:id="@+id/etDD"
+        style="@style/et_DD"
+        android:backgroundTint="@color/light_purple"
+        tools:ignore="MissingConstraints"/>
+
+    <EditText
+        android:id="@+id/etMM"
+        style="@style/et_MM"
+        android:backgroundTint="@color/light_purple"
+        tools:ignore="MissingConstraints"/>
+
+    <EditText
+        android:id="@+id/etYYYY"
+        style="@style/et_YYYY"
+        android:backgroundTint="@color/light_purple"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/tvbirthdat_Description"
+        style="@style/txt_BirthdayDiscription"
+        tools:ignore="MissingConstraints"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

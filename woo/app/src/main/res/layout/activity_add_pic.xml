@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddPic">
+    
+    <TextView
+        android:id="@+id/tvaddpic"
+        style="@style/txt_AddpicDescription"
+        tools:ignore="MissingConstraints" />
+
+    <GridLayout
+        style="@style/GridLayout_style"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/btn01"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            style="@style/btnAddpic"/>
+
+        <Button
+            android:id="@+id/btn02"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            style="@style/btnAddpic"/>
+
+        <Button
+            android:id="@+id/btn03"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            style="@style/btnAddpic"/>
+
+        <Button
+            android:id="@+id/btn11"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            style="@style/btnAddpic"/>
+
+        <Button
+            android:id="@+id/btn12"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            style="@style/btnAddpic"/>
+
+        <Button
+            android:id="@+id/btn13"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            style="@style/btnAddpic"/>
+
+        <Button
+            android:id="@+id/btn21"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            style="@style/btnAddpic"/>
+
+        <Button
+            android:id="@+id/btn22"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            style="@style/btnAddpic"/>
+
+        <Button
+            android:id="@+id/btn23"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            style="@style/btnAddpic"/>
+
+        <Button
+            android:id="@+id/btn31"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            style="@style/btnAddpic"/>
+
+        <Button
+            android:id="@+id/btn32"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            style="@style/btnAddpic"/>
+
+        <Button
+            android:id="@+id/btn33"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            style="@style/btnAddpic"/>
+
+    </GridLayout>
+    
+    <TextView
+        android:id="@+id/tvbottom_next"
+        style="@style/txt_NEXTBottom"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/tvReview"
+        style="@style/tv_txt_pictureReview"
+        tools:ignore="MissingConstraints"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
