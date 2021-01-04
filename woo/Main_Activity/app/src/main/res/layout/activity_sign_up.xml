@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="@dimen/dp_10"
-    tools:context=".sign_up">
+    tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/tvbytapping"
@@ -63,7 +63,7 @@
 
     <ImageView
         android:id="@+id/img1"
-        style="@style/im_coupleimg"
+        style="@style/im_coupleimg1"
         tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

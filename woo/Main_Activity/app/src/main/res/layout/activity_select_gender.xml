@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,58 +7,28 @@
     tools:context=".select_gender">
 
     <TextView
-        android:id="@+id/tvMyGender"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/text_my_gender"
-        android:textSize="@dimen/dp_60"
-        android:textStyle="bold"
-        android:layout_centerHorizontal="true"
-        android:paddingTop="@dimen/dp_60"
-        />
+        android:id="@+id/txt_nextg"
+        style="@style/txt_NEXT"
+        tools:ignore="MissingConstraints"/>
 
     <TextView
-        android:id="@+id/tvMan"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/text_I_am_a_man"
-        android:textSize="@dimen/dp_30"
-        android:layout_centerVertical="true"
-        android:paddingLeft="@dimen/dp_50"
-
-        />
+        android:id="@+id/txt_back"
+        style="@style/txt_BACK"
+        tools:ignore="MissingConstraints"/>
 
     <TextView
+        android:id="@+id/txt_mygender"
+        style="@style/txt_myGender"
+        tools:ignore="MissingConstraints"/>
 
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/text_I_am_a_woman"
-        android:textSize="@dimen/dp_30"
-        android:layout_toRightOf="@id/tvMan"
-        android:paddingLeft="@dimen/dp_50"
-        android:paddingTop="340dp"
+    <TextView
+        android:id="@+id/txt_male"
+        style="@style/txt_Male"
+        tools:ignore="MissingConstraints"/>
 
-        />
+    <TextView
+        android:id="@+id/txt_female"
+        style="@style/txt_Female"
+        tools:ignore="MissingConstraints"/>
 
-    <Button
-        android:id="@+id/btnBack"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/text_back"
-        android:textColor="@color/red"
-        android:layout_marginTop="@dimen/dp_10"
-        android:background="@color/white"
-        />
-
-    <Button
-        android:id="@+id/btnNext"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/text_next"
-        android:textColor="@color/red"
-        android:layout_marginTop="@dimen/dp_10"
-        android:layout_alignParentRight="true"
-        android:background="@color/white"
-        />
-
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

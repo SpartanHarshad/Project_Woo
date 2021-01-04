@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".relationship_lifestyle">
+
+    <TextView
+        android:id="@+id/tvRelation_Liftstyle"
+        style="@style/txt_Relationship_life"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvshare_more_details"
+        style="@style/txt_share_more_details"
+        android:paddingHorizontal="@dimen/dp_30"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/viewLine"
+        style="@style/view_line"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvbottomback_Addpic"
+        style="@style/txt_BACKBottom"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="679dp"/>
+
+    <TextView
+        android:id="@+id/tvbottomnext_Lifechoice"
+        style="@style/txt_NEXTBottom"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="286dp"
+        tools:layout_editor_absoluteY="679dp"/>
+
+    <ScrollView
+        android:id="@+id/ScrollView1"
+        style="@style/Scrol_View_Layout"
+        android:fillViewport="true"
+        android:paddingHorizontal="@dimen/dp_15"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:id="@+id/Relaivelayout1"
+            style="@style/Linear_Layout">
+
+            <TextView
+                android:id="@+id/txt_relationship"
+                style="@style/txt_Relationship"/>
+
+            <TextView
+                android:id="@+id/txt_relationshipStatus"
+                style="@style/txt_Relationship_Status"/>
+
+            <GridLayout
+                android:id="@+id/GridRelationship"
+                style="@style/GridLayout_Relationship">
+
+                <Button
+                    android:id="@+id/btn_single"
+                    style="@style/btn_relations"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:text="@string/txt_single"/>
+
+                <Button
+                    android:id="@+id/btn_single_with_kid"
+                    style="@style/btn_relations"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:paddingHorizontal="@dimen/dp_10"
+                    android:text="@string/txt_single_kids"/>
+
+                <Button
+                    android:id="@+id/btn_Divorced"
+                    style="@style/btn_relations"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:text="@string/txt_divorced"/>
+
+                <Button
+                    android:id="@+id/btn_Divorced_with_kid"
+                    style="@style/btn_relations"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:paddingHorizontal="@dimen/dp_15"
+                    android:text="@string/txt_divorced_kids"/>
+
+                <Button
+                    android:id="@+id/btn_Widowed"
+                    style="@style/btn_relations"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:text="@string/txt_widowed"/>
+
+                <Button
+                    android:id="@+id/btn_Widowed_with_kid"
+                    style="@style/btn_relations"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:paddingHorizontal="@dimen/dp_15"
+                    android:text="@string/txt_widowed_kids"/>
+
+                <Button
+                    android:id="@+id/btn_Separated"
+                    style="@style/btn_relations"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:text="@string/txt_separated"/>
+
+                <Button
+                    android:id="@+id/btn_Separated_with_kid"
+                    style="@style/btn_relations"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:paddingHorizontal="@dimen/dp_15"
+                    android:text="@string/txt_separated_kids"/>
+
+            </GridLayout>
+
+            <TextView
+                android:id="@+id/tvWhat_r_u_looking"
+                style="@style/txt_What_are_u_look"/>
+
+            <GridLayout
+                android:id="@+id/GridLayoutWhatAreYou"
+                style="@style/GridLayout_What_r_u_looking">
+
+                <Button
+                    android:id="@+id/btn_Relastionship"
+                    style="@style/btn_relations"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:paddingHorizontal="@dimen/dp_5"
+                    android:text="@string/txt_relation"/>
+
+                <Button
+                    android:id="@+id/btn_Somethingcasual"
+                    style="@style/btn_relations"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:paddingHorizontal="@dimen/dp_15"
+                    android:text="@string/txt_something_casual"/>
+
+                <Button
+                    android:id="@+id/btn_Dont_Yet"
+                    style="@style/btn_relations"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:paddingHorizontal="@dimen/dp_15"
+                    android:text="@string/txt_do_not"/>
+
+                <Button
+                    android:id="@+id/btn_Marriage"
+                    style="@style/btn_relations"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:paddingHorizontal="@dimen/dp_5"
+                    android:text="@string/txt_marriage"/>
+
+            </GridLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

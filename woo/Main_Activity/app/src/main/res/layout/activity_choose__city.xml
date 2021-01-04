@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Choose_City">
+
+    <GridLayout
+        android:id="@+id/cityGridBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rowCount="1"
+        android:columnCount="3"
+        android:background="@color/sky_blue"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/tvgotoaboutme"
+            style="@style/txt_TopbackArrow"
+            android:layout_margin="@dimen/dp_10"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/etseachcity"
+            style="@style/txt_topSearchbar"
+            android:gravity="start"
+            android:paddingVertical="@dimen/dp_20"
+            android:backgroundTint="@color/white"
+            android:paddingHorizontal="@dimen/dp_60"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/tvgotoViewProfile"
+            style="@style/txt_TopnextkArrow"
+            android:layout_margin="@dimen/dp_10"
+            tools:ignore="MissingConstraints" />
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/tvSetBrowsing"
+        style="@style/txt_SetBrowsing"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvmycirrentlocation"
+        style="@style/txt_mycurrentlocation"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvtopcity"
+        style="@style/txt_topCity"
+        tools:ignore="MissingConstraints" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvtopcity"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_mumbai"
+                android:textColor="@color/black"
+                android:paddingVertical="@dimen/dp_10"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_pune"
+                android:textColor="@color/black"
+                android:paddingVertical="@dimen/dp_10"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_newDelhi"
+                android:textColor="@color/black"
+                android:paddingVertical="@dimen/dp_10"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_bengaluru"
+                android:textColor="@color/black"
+                android:paddingVertical="@dimen/dp_10"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_chennai"
+                android:textColor="@color/black"
+                android:paddingVertical="@dimen/dp_10"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_gurgaon"
+                android:textColor="@color/black"
+                android:paddingVertical="@dimen/dp_10"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_newDelhi"
+                android:textColor="@color/black"
+                android:paddingVertical="@dimen/dp_10"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_ahmedabad"
+                android:textColor="@color/black"
+                android:paddingVertical="@dimen/dp_10"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_hyderabad"
+                android:textColor="@color/black"
+                android:paddingVertical="@dimen/dp_10"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_mumbai"
+                android:textColor="@color/black"
+                android:paddingVertical="@dimen/dp_10"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_pune"
+                android:textColor="@color/black"
+                android:paddingVertical="@dimen/dp_10"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_newDelhi"
+                android:textColor="@color/black"
+                android:paddingVertical="@dimen/dp_10"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_bengaluru"
+                android:textColor="@color/black"
+                android:paddingVertical="@dimen/dp_10"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_chennai"
+                android:textColor="@color/black"
+                android:paddingVertical="@dimen/dp_10"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_gurgaon"
+                android:textColor="@color/black"
+                android:paddingVertical="@dimen/dp_10"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_newDelhi"
+                android:textColor="@color/black"
+                android:paddingVertical="@dimen/dp_10"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_ahmedabad"
+                android:textColor="@color/black"
+                android:paddingVertical="@dimen/dp_10"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_hyderabad"
+                android:textColor="@color/black"
+                android:paddingVertical="@dimen/dp_10"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

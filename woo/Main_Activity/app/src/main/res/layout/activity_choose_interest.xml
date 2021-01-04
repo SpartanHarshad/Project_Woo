@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".choose_interest">
+
+    <TextView
+        android:id="@+id/tvChoose_Interest"
+        style="@style/txt_Choose_Interest"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvaddTags"
+        style="@style/txt_addTags"
+        android:paddingHorizontal="@dimen/dp_30"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvaddThreeUnterest"
+        style="@style/txt_addThreeUnterest"
+        android:paddingHorizontal="@dimen/dp_30"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/viewLine"
+        style="@style/view_lineinteret"
+        tools:ignore="MissingConstraints" />
+
+    <ScrollView
+        android:id="@+id/ScrollView1"
+        style="@style/Scrol_View_Layout"
+        android:fillViewport="true"
+        android:paddingHorizontal="@dimen/dp_15"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:id="@+id/LinearLayout1"
+            android:paddingHorizontal="@dimen/dp_30"
+            style="@style/Linear_LayoutChoose">
+
+            <Button
+                android:id="@+id/btn_ipl"
+                style="@style/btn_chooseInterest"
+                android:text="@string/text_ipl" />
+
+            <Button
+                android:id="@+id/btn_hip_hop"
+                style="@style/btn_chooseInterest"
+                android:text="@string/text_hip_hop" />
+
+            <Button
+                android:id="@+id/btn_calligraphy"
+                style="@style/btn_chooseInterest"
+                android:text="@string/text_calligraphy" />
+
+            <Button
+                android:id="@+id/btn_scuba_driving"
+                style="@style/btn_chooseInterest"
+                android:text="@string/text_scuba_driving" />
+
+            <Button
+                android:id="@+id/btn_democrat"
+                style="@style/btn_chooseInterest"
+                android:text="@string/text_democrat" />
+
+            <Button
+                android:id="@+id/btn_no_expense"
+                style="@style/btn_chooseInterest"
+                android:text="@string/text_no_expense" />
+
+            <Button
+                android:id="@+id/btn_football"
+                style="@style/btn_chooseInterest"
+                android:text="@string/text_football" />
+
+            <Button
+                android:id="@+id/btn_sculpting"
+                style="@style/btn_chooseInterest"
+                android:text="@string/text_sculpting" />
+
+            <Button
+                android:id="@+id/btn_hermit"
+                style="@style/btn_chooseInterest"
+                android:text="@string/text_hermit" />
+
+            <Button
+                android:id="@+id/btn_dog_person"
+                style="@style/btn_chooseInterest"
+                android:text="@string/text_dog_person" />
+
+            <Button
+                android:id="@+id/btn_stay_positive"
+                style="@style/btn_chooseInterest"
+                android:text="@string/text_stay_positive" />
+
+            <Button
+                android:id="@+id/btn_lesbian"
+                style="@style/btn_chooseInterest"
+                android:text="@string/text_lesbian" />
+
+            <Button
+                android:id="@+id/btn_dance_machine"
+                style="@style/btn_chooseInterest"
+                android:text="@string/text_dance_machine" />
+
+            <Button
+                android:id="@+id/btn_pottery"
+                style="@style/btn_chooseInterest"
+                android:text="@string/text_pottery" />
+
+            <Button
+                android:id="@+id/btn_politically_incorrect"
+                style="@style/btn_chooseInterest"
+                android:text="@string/text_politically_incorrect" />
+
+            <Button
+                android:id="@+id/btn_rap_music"
+                style="@style/btn_chooseInterest"
+                android:text="@string/text_rap_music" />
+
+            <Button
+                android:id="@+id/btn_classical_music"
+                style="@style/btn_chooseInterest"
+                android:text="@string/text_classical_music" />
+
+            <Button
+                android:id="@+id/btn_writing"
+                style="@style/btn_chooseInterest"
+                android:text="@string/text_writing" />
+
+            <Button
+                android:id="@+id/btn_bowling"
+                style="@style/btn_chooseInterest"
+                android:text="@string/text_bowling" />
+
+            <Button
+                android:id="@+id/btn_witty"
+                style="@style/btn_chooseInterest"
+                android:text="@string/text_witty" />
+
+            <Button
+                android:id="@+id/btn_nature_walks"
+                style="@style/btn_chooseInterest"
+                android:text="@string/text_nature_walks" />
+
+            <Button
+                android:id="@+id/btn_wanderlust"
+                style="@style/btn_chooseInterest"
+                android:text="@string/text_wanderlust" />
+
+            <Button
+                android:id="@+id/btn_electronic"
+                style="@style/btn_chooseInterest"
+                android:text="@string/text_electronic" />
+
+            <Button
+                android:id="@+id/btn_long_walks"
+                style="@style/btn_chooseInterest"
+                android:text="@string/text_long_walks" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/tvbottomback_LifeStyle"
+        style="@style/txt_BACKBottom"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="679dp" />
+
+    <TextView
+        android:id="@+id/tvbottomnext_Aboutme"
+        style="@style/txt_NEXTBottom"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="286dp"
+        tools:layout_editor_absoluteY="679dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

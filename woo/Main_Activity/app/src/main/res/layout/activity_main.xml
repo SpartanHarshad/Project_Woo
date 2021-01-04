@@ -1,73 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
+    android:layout_centerInParent="false"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="false"
+    android:gravity="center"
+    tools:context=".sign_up">
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/icon"
-        android:layout_centerHorizontal="true"
-        android:paddingTop="@dimen/dp_60"
-        />
-    <TextView
-        android:id="@+id/tvYou"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="@dimen/dp_40"
-        android:paddingTop="@dimen/dp_300"
-        android:paddingStart="@dimen/dp_155"
-        android:text="@string/text_you"
-        android:textColor="#d34367"
-        android:textSize="@dimen/sp_40"
-        android:drawablePadding="@dimen/dp_50"
-
-        />
+        android:id="@+id/logo"
+        style="@style/splash_img"
+        tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/tvKnow"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/text_know"
-        android:textColor="#d14799"
-        android:textSize="@dimen/sp_40"
-        android:layout_below="@id/tvYou"
-        android:paddingStart="@dimen/dp_140"
+        android:id="@+id/tvTagline"
+        style="@style/Splash_textView"
+        tools:ignore="MissingConstraints"/>
 
-        />
-    <TextView
-        android:id="@+id/When"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/text_when"
-        android:textColor="#a85988"
-        android:textSize="@dimen/sp_40"
-        android:layout_below="@id/tvKnow"
-        android:paddingStart="140dp"
-        />
-    <TextView
-        android:id="@+id/tvIts"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/text_its"
-        android:textColor="#cc47c3"
-        android:textSize="@dimen/sp_40"
-        android:layout_below="@id/When"
-        android:paddingStart="160dp"
-        />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/text_right"
-        android:textColor="#c13ebf"
-        android:textSize="@dimen/sp_40"
-        android:layout_below="@id/tvIts"
-        android:paddingStart="140dp"
-
-        />
-
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -7,7 +7,7 @@
     <string name="text_right">RIGHT</string>
     --------------------------------------------------------
 
-
+    <string name="txt_Tagline">YOU  KNOW  WHEN  ITS  RIGHT</string>
     <string name="txt_sign_in">sign-in with phone number</string>
     <string name="txt_woo">WOO</string>
     <string name="txt_the_dating_app">THE DATING APP WOMEN LOVE</string>
@@ -30,14 +30,14 @@
     <string name="text_next">NEXT</string>
     <string name="text_to_protect">To protect your privacy, we only show initials
         for Women and First Name for Men</string>
------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------
 
     <string name="text_my_gender">My Gender</string>
     <string name="text_I_am_a_man">I am a Man</string>
     <string name="text_I_am_a_woman">I am a Woman</string>
     <string name="text_back">BACK</string>
 
-----------------------------------------------------------------------------------------
+    ----------------------------------------------------------------------------------------
 
     <string name="text_my_birthday">My Birthday</string>
     <string name="text_dd">DD</string>
@@ -45,7 +45,7 @@
     <string name="text_yyyy">YYYY</string>
     <string name="text_enter_your_true_date_of_birth">Please enter your true date of birth hare. It will help us find you best matches fast.</string>
 
------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------
 
     <string name="text_add_your_photos">Add your photos</string>
     <string name="text_please_review_our_tips">Please review our tips to make sure your pics are approved and get liked.</string>
@@ -53,7 +53,7 @@
     <string name="text_gallery">GALLERY</string>
     <string name="text_facebook">FACEBOOK</string>
     <string name="text_camera">CAMERA</string>
-----------------------------------------------------------------------------------
+    ----------------------------------------------------------------------------------
 
     <string name="text_relationship_and_lifestyle">Relationship and Lifestyle</string>
     <string name="text_share">Share more about yourself to be discovered by the right people</string>
@@ -67,7 +67,7 @@
     <string name="text_widowed_kids">#Widowed and with Kids +</string>
     <string name="text_separated">#Separated</string>
     <string name="text_separated_kids">#Separated and with Kids +</string>
-    
+
     <string name="text_what">What are you looking for on Woo (Select one)</string>
     <string name="text_relation">#Relationship +</string>
     <string name="text_something_casual">#Something casual +</string>
@@ -95,7 +95,7 @@
     <string name="text_sometimes">#Sometimes +</string>
     <string name="text_almost_never">#Almost never +</string>
 
-----------------------------------------------------------------------------------------------
+    ----------------------------------------------------------------------------------------------
     <string name="text_choose_interests">Choose interests</string>
     <string name="text_add_tags">Add tags that describe you best to meet like-minded people.</string>
     <string name="text_add">Add at least 3 tags</string>
@@ -124,13 +124,13 @@
     <string name="text_wanderlust">Wanderlust +</string>
     <string name="text_electronic">Electronic +</string>
     <string name="text_long_walks">LongWalks +</string>
------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------
     <string name="text_about_me">About Me</string>
     <string name="text_write_about_yourself">Write about yourself...</string>
     <string name="text_up_to_300">Upto 300</string>
     <string name="text_keep_it_clean">Keep it clean! No phone, messenger details, web links, abusive or explicit content please.</string>
 
-----------------------------------------------------------------------------------------------
+    ----------------------------------------------------------------------------------------------
 
     <string name="text_me">Me</string>
 
@@ -163,7 +163,7 @@
     <string name="text_respect">Respect is a two way street</string>
     <string name="text_be_the_reason">Be the reason they smile, not the reason they log off the app.</string>
 
------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------
 
     <string name="text_settings">Settings</string>
 
@@ -186,5 +186,104 @@
     <string name="text_account">Account</string>
     <string name="text_log_out">Log out</string>
     <string name="text_disable">Disable</string>
+    -------------------------------------------------------------------------
 
+    <!-- My Name TextView Fname Lname EditText Activity -->
+    <string name="my_name_txt">My Name</string>
+    <string name="next">NEXT &gt;</string>
+    <string name="fname_hint">First Name (mandatory) </string>
+    <string name="lname_hint">Last Name (optional) </string>
+    -------------------------------------------------------------------------
+    <!-- My Gender TextView Male Female Activity -->
+    <string name="txt_my_gender">My Gender</string>
+    <string name="txt_I_am_a_man">I am a Man</string>
+    <string name="txt_I_am_a_woman">I am a Woman</string>
+    <string name="txt_back"> &lt; BACK</string>
+
+    --------------------------------------------------------------------------
+    <!-- My Birthday TextView EditText Activity -->
+    <string name="txt_my_birthday">My Birthday</string>
+    <string name="hint_DD">DD</string>
+    <string name="hint_MM">MM</string>
+    <string name="hint_YYYY">YYYY</string>
+    <string name="txt_birthday_Description">Please enter your true date of birth here. it will help us find you best matches fast.</string>
+
+    ----------------------------------------------------------------------------------------
+
+    <!-- Add Picture  Activity -->
+    <string name="txt_addpic_Description">Add your photos</string>
+    <string name="txt_plus_sign">+</string>
+    <string name="txt_please_review_our_tips">Please review our tips to make sure your pics are approved and get liked.</string>
+
+    --------------------------------------------------------------------------------------
+
+    <!-- Relationship and Lifestyle Activity -->
+    <string name="txt_relationship_and_lifestyle">Relationship and Lifestyle</string>
+    <string name="txt_share">Share more about yourself to be discovered by the right people</string>
+    <string name="txt_relationship">Relationship</string>
+    <string name="txt_relationship_status">Relationship status (Select one)</string>
+    <string name="txt_single">#Single +</string>
+    <string name="txt_single_kids">#Single and with kids +</string>
+    <string name="txt_divorced">#Divorced +</string>
+    <string name="txt_divorced_kids">#Divorced and with Kids +</string>
+    <string name="txt_widowed">#Widowed +</string>
+    <string name="txt_widowed_kids">#Widowed and with Kids +</string>
+    <string name="txt_separated">#Separated</string>
+    <string name="txt_separated_kids">#Separated and with Kids +</string>
+
+    <string name="txt_what">What are you looking for on Woo (Select one)</string>
+    <string name="txt_relation">#Relationship +</string>
+    <string name="txt_something_casual">#Something casual +</string>
+    <string name="txt_do_not">#Do not know yet +</string>
+    <string name="txt_marriage">#Marriage +</string>
+
+    <string name="txt_lifestyle">Lifestyle Choices</string>
+    <string name="txt_smoking">Smoking/Non Smoking (Select one)</string>
+    <string name="txt_smoker">#Smoker +</string>
+    <string name="txt_non_smoker">#Non-smoker +</string>
+    <string name="txt_trying">#Trying to quit</string>
+
+    <string name="txt_drinking">Drinking (Select one)</string>
+    <string name="txt_drinks">#Drinks frequently +</string>
+    <string name="txt_teetotaler">#Teetotaler</string>
+    <string name="txt_social">#Social drinker +</string>
+
+    <string name="txt_diet">Diet (Select one)</string>
+    <string name="txt_vegetarian">#Vegetarian +</string>
+    <string name="txt_vegan">#Vegan +</string>
+    <string name="txt_non_vegetarian">#Non-vegetarian +</string>
+
+    <string name="txt_workout">Workout (Select one)</string>
+    <string name="txt_active">#Active +</string>
+    <string name="txt_sometimes">#Sometimes +</string>
+    <string name="txt_almost_never">#Almost never +</string>
+
+    ----------------------------------------------------------------------------
+    <string name="txt_signin">SIGN-IN WITH PHONE NUMBER</string>
+    <string name="txt_signinfacebook">SIGN IN WITH FACEBOOK</string>
+    ----------------------------------------------------------------------------------
+    <!-- Choose interests Activity -->
+
+    <string name="txt_choose_interests">Choose interests</string>
+    <string name="txt_add_tags">Add tags that describe you best to meet like-minded people.</string>
+    <string name="txt_add">Add at least 3 tags</string>
+
+
+
+    <!-- About Me Activity -->
+
+    <!-- Search City Activity -->
+    <string name="text_Search_city">Search City</string>
+    <string name="text_set_browser">Set your browsing location. This can only be modified later if you give location permission is Settings.</string>
+    <string name="tetx_my_location">My current location</string>
+    <string name="text_top_cities"> Top cities</string>
+    <string name="text_mumbai">Mumbai, Maharashtra</string>
+    <string name="text_newDelhi">New Delhi, Delhi</string>
+    <string name="text_pune">Pune, Maharashtra</string>
+    <string name="text_bengaluru">Bengaluru, Karnataka</string>
+    <string name="text_chennai">Chennai, Tamil Nadu</string>
+    <string name="text_gurgaon">Gurgaon, Haryana</string>
+    <string name="text_ahmedabad">Ahmedabad Gujarat</string>
+    <string name="text_hyderabad">Hyderabad, Telangana</string>
+    <string name="txt_discover">Discover</string>
 </resources>
