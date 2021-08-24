@@ -13,3 +13,5 @@
 |**Chat Box Screen**|**Search City Screen**|**Home Screen**|
 |:---|:--|:--|
 |<img src=https://github.com/SpartanHarshad/Project_Woo/blob/master/woo/app/src/main/res/Woo/chatbox.jpg height="500px" width="350px"/>|<img src=https://github.com/SpartanHarshad/Project_Woo/blob/master/woo/app/src/main/res/Woo/location.jpg height="500px" width="350px"/>|<img src=https://github.com/SpartanHarshad/Project_Woo/blob/master/woo/app/src/main/res/Woo/home.jpg height="500px" width="350px"/>
+
+Use of Explicit intent to navigate between different screen
